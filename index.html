@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinBerry</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.svg" alt="">
+            <h2>Coin<span class="berry">Berry</span></h2>
+        </div>
+        <img class="ham" src="img/Hamburger_icon.svg" alt="Hamburger_icon">
+        <ul class="nav-links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">Live Exchange Rates</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </header>
+
+    <!-- HAMBURGER MENU -->
+    <nav class="visibility nav">
+        <img class="close" src="img/close.svg" alt="">
+        <ul class="menu-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Live Exchange Rates</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+
+        <h1>Exchange Money</h1>
+
+        <!-- Calculation field -->
+        <div class="calc-container from">
+
+            <div class="from-block list visibility">
+                <div class="searchbar">
+                    <input class="country-input" name= "country name" type="text" value="">
+                    <img class="search" src="./img/search.svg" alt="search-icon" srcset="">
+                    <img class="cancel" src="./img/cancel.svg" alt="cancel-icon" srcset="">
+                </div>
+                <div class="items">
+                   
+
+                </div>
+
+            </div>
+
+
+      
+
+            <!-- FROM CURRENCY -->
+            <div class="from-block container ">
+
+                <div class="from-tab tab">
+                    <p class="from-title title">From</p>
+                    <p class="from-currency currency"><span class="from-currency-symbol">USD</span>-<span
+                            class="from-currency-name">Dollar</span></p>
+                </div>
+                <div class="from-nationalflag flag">
+                    <img class="from-flag" src="https://restcountries.eu/data/usa.svg" alt="flag">
+                    <img class="from arrow" src="./img/arrow.svg" alt="arrow">
+                </div>
+                
+                <div class="input-field num">
+                    <input class="input-value" type="number" placeholder="0" autofocus >
+                </div>
+            </div>
+
+            <!-- SWAP ICON -->
+            <div class="exchange">
+                <img class="exchange-icon" src="img/exchange.svg" alt="exchange icon">
+            </div>
+
+            <!-- TO CURRENCY -->
+            <div class="to-block container">
+
+                <div class="to-tab tab">
+                    <p class="to-title title">To</p>
+                    <p class=" currency"><span class="to-currency-symbol">HUF</span>-<span class="to-currency-name">Forint</span></p>
+                </div>
+                <div class="to-nationalflag flag">
+                    <img class="to-flag" src= "https://restcountries.eu/data/hun.svg" alt="flag">
+                    <img class="to arrow" src="./img/arrow.svg" alt="arrow">
+                </div>
+                <p class="exchange-result num">0</p>
+            </div>
+
+            <div class="to-block list visibility">
+                <div class="searchbar">
+                    <input class="country-input" type="text">
+                    <img class="search" src="./img/search.svg" alt="search-icon" srcset="">
+                    <img class="cancel" src="./img/cancel.svg" alt="cancel-icon" srcset="">
+                </div>
+                <div class="items">
+               
+                </div>
+
+            </div>
+
+        </div>
+        <!-- SUBMIT BUTTON -->
+        <div class="bt">
+            <button class="submit" type="submit" class="submit">Exchange</button>
+        </div>
+
+
+
+
+    </div>
+    <!-- WAWES -->
+    <img class="waves" src="./img/waves.svg" alt="">
+    <script src="page.js"></script>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
